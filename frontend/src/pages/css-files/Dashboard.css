@@ -47,6 +47,10 @@
     position: relative;
 }
 
+input#confirm-new-password {
+    margin-bottom: 0px;
+}
+
 .error-flag::before {
     content: '';
     position: absolute;
@@ -159,7 +163,7 @@
 #profile-save-icon{
     font-size: 30px;
     color: #00DD21;
-    margin: 0px 35px 15px;
+    margin: 15px 35px 15px;
     align-items: center;
 }
 
@@ -172,7 +176,7 @@
 #profile-cancel-icon{
     font-size: 30px;
     color: #FF0000;
-    margin: 0px 35px 15px;
+    margin: 15px 35px 15px;
     align-items: center;
 }
 
@@ -185,7 +189,7 @@
 #profile-edit-icon{
     font-size: 25px;
     color: #00DD21;
-    margin: 0px 35px 15px;
+    margin: 15px 35px 15px;
     align-items: center;
 }
 

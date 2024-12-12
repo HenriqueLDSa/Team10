@@ -312,43 +312,43 @@ const ProfileDropdown: React.FC<ProfileDropdownProps> = ({ firstName, lastName, 
             <div className={`profile-info ${isEditing ? "editing" : ""}`}>
                 {isEditing ? (
                     <>
-                        <button
+                        {/* <button
                             data-testid="profile-cancel-button"
                             id="profile-cancel-button"
                             className="profile-action-button"
-                            onClick={onCancelProfile}
-                            >
-                            <i className="far fa-times-circle" id="profile-cancel-icon" />
-                        </button>
+                            
+                            > */}
+                            <i onClick={onCancelProfile} className="far fa-times-circle" id="profile-cancel-icon" />
+                        {/* </button> */}
 
-                        <button
+                        {/* <button
                             data-testid="profile-save-button"
                             id="profile-save-button"
                             className="profile-action-button"
-                            onClick={handleSaveChange}
-                            >
-                            <i className="far fa-check-circle" id="profile-save-icon" />
-                        </button>
+                            
+                            > */}
+                            <i onClick={handleSaveChange} className="far fa-check-circle" id="profile-save-icon" />
+                        {/* </button> */}
                     </>
                 ) : (
                     <>
-                        <button
+                        {/* <button
                             data-testid="profile-cancel-button"
                             id="profile-cancel-button"
                             className="profile-action-button"
-                            onClick={onCancelProfile}
-                            >
-                            <i className="far fa-times-circle" id="profile-cancel-icon" />
-                        </button>
+                            
+                            > */}
+                            <i onClick={onCancelProfile} className="far fa-times-circle" id="profile-cancel-icon" />
+                        {/* </button> */}
 
-                        <button
-                            ata-testid="profile-edit-button"
+                        {/* <button
+                            data-testid="profile-edit-button"
                             id="profile-edit-button"
                             className="profile-action-button"
-                            onClick={onEditProfile}
-                            >
-                            <i className='fa fa-edit' id="profile-edit-icon"/>
-                        </button>
+                            
+                            > */}
+                            <i onClick={onEditProfile} className='fa fa-edit' id="profile-edit-icon"/>
+                        {/* </button> */}
                     </>
                 )}
             </div>
